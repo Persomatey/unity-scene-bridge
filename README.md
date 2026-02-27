@@ -2,7 +2,7 @@
 
 A simple additive scene loading system with a built-in loading screen workflow.
 
-Loads scenes asynchronously in the background, keeps them inactive until fully ready, displays a loading canvas during the transition, and then cleanly activates the new scene while unloading the old one. Designed to provide smooth, controlled scene transitions with minimal setup.
+Loads scenes asynchronously in the background, keeps them inactive until fully ready, displays a loading canvas during the transition with an accurate loading bar, and then cleanly activates the new scene while unloading the old one, with a garbage collection pass in between. Designed to provide smooth, controlled scene transitions with minimal setup.
 
 Check out [Releases](https://github.com/Persomatey/unity-asynchronous-scene-loading-system/releases) tab to see a history of all versions of this package. 
 
